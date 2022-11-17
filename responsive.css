@@ -1,0 +1,53 @@
+@media screen and (max-width: 360px) {
+  .todo-app {
+    width: 80%;
+    height: 380px;
+  }
+
+  .todo-heading {
+    font-size: 25px;
+  }
+
+  .todo-input {
+    width: 70%;
+    height: 18px;
+    padding: 1rem;
+  }
+
+  ::placeholder {
+    font-size: 12px;
+  }
+
+  .add-button {
+    width: 25%;
+    height: 35px;
+    font-size: 9px;
+  }
+
+  .add-todo-button {
+    width: 9%;
+    height: 30px;
+    border-radius: 50%;
+    font-size: 13px;
+    padding-left: 0.3rem;
+    padding-right: 1rem;
+  }
+
+  .adding-todo-style {
+    width: 95%;
+    padding: 0.2rem;
+    padding-left: 1rem;
+  }
+
+  .messageSuccess {
+    width: 95%;
+    font-size: 13px;
+    padding: 0.4rem;
+  }
+
+  .messageUnsuccess {
+    width: 95%;
+    font-size: 13px;
+    padding: 0.4rem;
+  }
+}
